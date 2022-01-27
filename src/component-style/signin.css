@@ -1,0 +1,223 @@
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-text{
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    height: 80px;
+    padding:29px ;
+    margin-left: 119px;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    width: 130px;
+    height: 80px;
+    padding:29px ;
+    font-family: 'Poppins';
+    font-size: 14px;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    
+}
+.sign{
+    background-color: #5861AE;
+    color: white !important;
+}
+
+/* login page style */
+.login-container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.login-card{
+    width: 50%;
+}
+.banner-container{
+    margin: 100px 0px 0px 152px;
+}
+.banner-container h1{
+    font-family: 'Poppins' ;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 1px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.p-20{
+    font-family: "poppins";
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-top: 20px;
+}
+.p-16{
+    margin-top: 74px;
+    font-family: "poppins";
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    padding: 0px 0px 30px 0px;
+}
+.register{
+    font-size: 15px;
+    padding: 16px 43px;
+    font-family: "poppins";
+    border: 2px solid #4552C1;
+    background-color: white;
+    color: #4552C1;
+    font-weight: 600;
+}
+.login-form{
+    width: 50%;
+    background-color: #B9C0FD1A;
+}
+.login-form-wrapper{
+    margin: 132px 0px 0px 130px;
+}
+.login-form-wrapper h2{
+    font-size: 32px;
+    font-family: "poppins";
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+.login-title{
+    margin-top: 49px;
+    /* padding: 4px 0px 30px 2px; */
+    font-size: 14px;
+    font-family: "poppins";
+    letter-spacing: 0.42px;
+    color: #5861AE;
+    opacity: 1;
+}
+.input-field{
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #e5e8fd1a;
+    border-bottom: 2px solid #4552C1;
+    outline: none;
+}
+.p-left{
+    /* direction: rtl; */
+    margin-left: 230px;
+    margin-top: 22px;
+    color: #4552C1;
+    text-transform: capitalize;
+    opacity: 1;
+    font-family: "poppins";
+}
+.submit-btn{
+    width: 150px;
+    height: 50px;
+    margin: 0px 120px;
+    background-color: #5861AE;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+/* footer styling */
+.hori-rule{
+    color: #5861AE;
+    border: 2px solid #5861AE;
+    background-color: #5861AE;
+}
+.refferal-card{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #F8F9FF;
+}
+.refferal-text{
+    font-size: 24px;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    opacity: 1;
+    font-family: "Poppins";
+}
+.extra-small{
+    font-size: 14px;
+    color: #3D3D43;
+    font-family: "Poppins";
+    /* margin-top: -20px; */
+}
+.footer-banner{
+    padding: 50px 205px 0px  137px;
+    height: 197px;
+    display: flex;
+}
+.about-us{
+    width: 400px;
+}
+.m-text{
+    font-size: 18px;
+    font-family: "poppins";
+    color: #182838;
+    letter-spacing: 0.18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.navigation-bar{
+    width: 150px;
+}
+.navigation-heading{
+    font-size: 16px;
+    color: #182838;
+    font-weight: 500;
+    font-family: "poppins";
+    margin-bottom: 20px;
+}
+.social-media{
+    padding-left: 40px;
+}
+.social-media i {
+    margin: 10px;
+    font-size: 20px;
+}
+.p-footer{
+    padding-bottom: 10px;
+    font-family: "poppins";
+    font-size: 16px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #6e89f81a;
+    position: absolute;
+    /* top: 10px; */
+    right: 80px;
+    border-radius: 50%;
+    /* opacity: 0.3; */
+}
+
+/* copywrite css */
+.copywrite{
+    height: 40px;
+    text-align: center;
+    background-color: #182838;
+    color: white;
+    padding: 5px;
+}
+
+/* register form css */

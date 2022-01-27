@@ -1,0 +1,56 @@
+
+.alert-parent{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 100%;
+    height: 100%;
+}
+.alert{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    border-radius: 20px;
+}
+
+.alert-banner{
+    width: 100%;
+    background-color: #5861AE;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+.alert-banner p{
+    font-size: 20px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.alert-content {
+    text-align: center;
+    position: relative;
+}
+.alert-sign{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+.alert-sign i{
+    font-size: 40px;
+    color: red;
+}
+
+.alert-content p{
+    padding: 30px;
+}
+.alert-content button{
+    padding: 7px 20px;
+    border: none;
+    background-color: #5861AE;
+    color: white;
+    font-size: 16px;
+}
